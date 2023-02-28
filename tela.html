@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela inicial</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <style>
+        html
+        {
+            height: 100vh;
+            width: 100%;
+        }
+        body
+        {
+            height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(#206e80, #87C6D4);
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+       
+        .circulo
+        {
+            border: 1px solid #206e80;  
+            height: 50px;
+            width: 50px;
+            border-top-color:#04313b;
+            animation: is-rotating 1s infinite;
+            border-radius: 50%;
+  
+        }
+        @keyframes is-rotating {
+            to {
+                transform: rotate(1turn);
+            }
+        }
+        .conteudo
+        {
+            height: 100vh;
+            width: 100%; 
+            transform: scale(6);
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .texto
+        {
+          
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            position: absolute;
+            font-size: 40px;
+            animation: flipInX 2s;
+        }
+
+    </style>
+</head>
+
+
+
+
+<body>
+
+    <div class="texto">SPRING SHOP</div>
+
+    <div class="conteudo">
+        
+        <div  class="circulo">
+  
+        </div>
+    </div>
+</body>
+</html>
